@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+  	<welcome-file>register.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddTodoServlet</display-name>
+    <servlet-name>AddTodoServlet</servlet-name>
+    <servlet-class>com.controller.AddTodoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddTodoServlet</servlet-name>
+    <url-pattern>/AddTodoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EditServlet</display-name>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.controller.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateTodoServlet</display-name>
+    <servlet-name>UpdateTodoServlet</servlet-name>
+    <servlet-class>com.controller.UpdateTodoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateTodoServlet</servlet-name>
+    <url-pattern>/UpdateTodoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteTodoServlet</display-name>
+    <servlet-name>DeleteTodoServlet</servlet-name>
+    <servlet-class>com.controller.DeleteTodoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteTodoServlet</servlet-name>
+    <url-pattern>/DeleteTodoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
